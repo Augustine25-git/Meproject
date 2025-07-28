@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Project - Sprint 2</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 10px;
+        }
+        .sprint-info {
+            background-color: #e9ecef;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .task-list {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-left: 4px solid #007bff;
+            margin: 20px 0;
+        }
+        .task-list h3 {
+            color: #007bff;
+            margin-top: 0;
+        }
+        .task-list ul {
+            margin: 10px 0;
+        }
+        .task-list li {
+            margin: 5px 0;
+        }
+        .status {
+            text-align: center;
+            font-weight: bold;
+            color: #28a745;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎯 Sprint 2 - HTML Development</h1>
+        
+        <div class="status">
+            ✅ Sprint 1 Completed Successfully!
+        </div>
+        
+        <div class="sprint-info">
+            <h2>📋 Sprint 2 Objectives</h2>
+            <p>This sprint focuses on creating simple HTML code and demonstrating version control mastery.</p>
+        </div>
+        
+        <div class="task-list">
+            <h3>📝 Sprint 2 Tasks:</h3>
+            <ul>
+                <li>✅ Create simple code using HTML</li>
+                <li>✅ Create one page using HTML</li>
+                <li>🔄 Display the page content on the browser using localhost</li>
+                <li>🔄 Monitor the source code location</li>
+                <li>🔄 Demonstrate mastery of version control commands</li>
+                <li>🔄 Store the code on the repository</li>
+                <li>🔄 Submit your GitHub repository link</li>
+            </ul>
+        </div>
+        
+        <div class="sprint-info">
+            <h3>🔧 Technical Details</h3>
+            <p><strong>Project Location:</strong> C:\Apache24\htdocs\Meproject</p>
+            <p><strong>Web Server:</strong> XAMPP (Apache)</p>
+            <p><strong>Local URL:</strong> http://localhost/Meproject/</p>
+            <p><strong>Version Control:</strong> Git</p>
+        </div>
+        
+        <div class="task-list">
+            <h3>🎯 Next Steps</h3>
+            <ol>
+                <li>Test this page in the browser using localhost</li>
+                <li>Initialize Git repository (if not done)</li>
+                <li>Add and commit the HTML file</li>
+                <li>Push to GitHub repository</li>
+                <li>Submit the repository link</li>
+            </ol>
+        </div>
+        
+        <div style="text-align: center; margin-top: 30px;">
+            <p><em>Created for Sprint 2 - HTML Development Project</em></p>
+            <p><strong>Date:</strong> <span id="current-date"></span></p>
+        </div>
+    </div>
+    
+    <script>
+        // Display current date
+        document.getElementById('current-date').textContent = new Date().toLocaleDateString();
+    </script>
+</body>
+</html> 
