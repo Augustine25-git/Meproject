@@ -1,0 +1,12 @@
+{
+    "name": "meproject/sprint8",
+    "description": "Sprint 8 - User Authentication with 2FA",
+    "require": {
+        "phpmailer/phpmailer": "^6.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+} 
